@@ -2939,6 +2939,11 @@ PrefabInstance:
       propertyPath: jumpForce
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 1639244721197004345, guid: 13ae2d8a4f6ea66429b74f78673f3013,
+        type: 3}
+      propertyPath: moveSpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4824835279183799012, guid: 13ae2d8a4f6ea66429b74f78673f3013,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2994,14 +2999,39 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4824835279183799014, guid: 13ae2d8a4f6ea66429b74f78673f3013,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4824835279183799015, guid: 13ae2d8a4f6ea66429b74f78673f3013,
         type: 3}
       propertyPath: m_Name
       value: HannGover
       objectReference: {fileID: 0}
+    - target: {fileID: 4824835280983251239, guid: 13ae2d8a4f6ea66429b74f78673f3013,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4824835280983251239, guid: 13ae2d8a4f6ea66429b74f78673f3013,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 6329522195016542952, guid: 13ae2d8a4f6ea66429b74f78673f3013,
         type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746064423033532819, guid: 13ae2d8a4f6ea66429b74f78673f3013,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 6746064423033532819, guid: 13ae2d8a4f6ea66429b74f78673f3013,
+        type: 3}
+      propertyPath: m_EdgeRadius
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
