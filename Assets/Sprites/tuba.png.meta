@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: 72aa032b1a3a44b4dba9eea4e20ee687
+guid: afd2ecc9d76d79d439d085503bf8716d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1908514106002684129
-    second: Agua Viva_0
+      213: -7548800669958128662
+    second: tuba_0
   - first:
-      213: 8602037828560269107
-    second: Agua Viva_1
+      213: 6467109521798262815
+    second: tuba_1
   - first:
-      213: 917006220187027711
-    second: Agua Viva_2
+      213: -3330599649924240357
+    second: tuba_2
   - first:
-      213: 7350862579472027912
-    second: Agua Viva_3
-  - first:
-      213: 4182912578627670864
-    second: Agua Viva_4
-  - first:
-      213: -2358417108788320314
-    second: Agua Viva_5
-  - first:
-      213: 3749909440520639682
-    second: Agua Viva_6
+      213: 8393394902533622397
+    second: tuba_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -52,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -63,10 +54,10 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,13 +111,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Agua Viva_0
+      name: tuba_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 489
-        width: 181
-        height: 185
+        x: 6
+        y: 133
+        width: 122
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +125,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e8bc19b7776c7a10800000000000000
-      internalID: 1908514106002684129
+      spriteID: aeb3ae239c54d3790800000000000000
+      internalID: -7548800669958128662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Agua Viva_1
+      name: tuba_1
       rect:
         serializedVersion: 2
-        x: 260
-        y: 487
-        width: 169
-        height: 186
+        x: 134
+        y: 133
+        width: 121
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33faecb54d3906770800000000000000
-      internalID: 8602037828560269107
+      spriteID: f10f45a88d9cfb950800000000000000
+      internalID: 6467109521798262815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Agua Viva_2
+      name: tuba_2
       rect:
         serializedVersion: 2
-        x: 500
-        y: 497
-        width: 172
-        height: 186
+        x: 6
+        y: 5
+        width: 121
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ff8421b7c4cd9bc00800000000000000
-      internalID: 917006220187027711
+      spriteID: b1ca931c34557c1d0800000000000000
+      internalID: -3330599649924240357
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Agua Viva_3
+      name: tuba_3
       rect:
         serializedVersion: 2
-        x: 16
-        y: 273
-        width: 186
-        height: 173
+        x: 134
+        y: 5
+        width: 121
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,71 +188,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 801542ac192830660800000000000000
-      internalID: 7350862579472027912
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Agua Viva_4
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 255
-        width: 144
-        height: 187
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0539d9704d0bc0a30800000000000000
-      internalID: 4182912578627670864
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Agua Viva_5
-      rect:
-        serializedVersion: 2
-        x: 536
-        y: 243
-        width: 128
-        height: 203
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c7e77e8228354fd0800000000000000
-      internalID: -2358417108788320314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Agua Viva_6
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 34
-        width: 147
-        height: 197
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c4dd1ea4ca5a0430800000000000000
-      internalID: 3749909440520639682
+      spriteID: d7a471991345b7470800000000000000
+      internalID: 8393394902533622397
       vertices: []
       indices: 
       edges: []
