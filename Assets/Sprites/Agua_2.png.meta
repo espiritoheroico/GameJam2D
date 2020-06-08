@@ -1,7 +1,109 @@
 fileFormatVersion: 2
 guid: f7c87cf886766b34283e922dfaf46abd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5152513369181193947
+    second: Agua_2_0
+  - first:
+      213: 3655871035224181433
+    second: Agua_2_1
+  - first:
+      213: -952247992569439834
+    second: Agua_2_2
+  - first:
+      213: -329717557027398258
+    second: Agua_2_3
+  - first:
+      213: -829742187321933056
+    second: Agua_2_4
+  - first:
+      213: 866586971447382124
+    second: Agua_2_5
+  - first:
+      213: 2856527756504673884
+    second: Agua_2_6
+  - first:
+      213: -1728188673026320667
+    second: Agua_2_7
+  - first:
+      213: 6626671432228685602
+    second: Agua_2_8
+  - first:
+      213: -1873710854677791454
+    second: Agua_2_9
+  - first:
+      213: -8574811790546532374
+    second: Agua_2_10
+  - first:
+      213: -1069001131129849091
+    second: Agua_2_11
+  - first:
+      213: -6216745844841489758
+    second: Agua_2_12
+  - first:
+      213: -820186310711347563
+    second: Agua_2_13
+  - first:
+      213: 8597508413041378726
+    second: Agua_2_14
+  - first:
+      213: 6428056684226217232
+    second: Agua_2_15
+  - first:
+      213: 5374298369957507388
+    second: Agua_2_16
+  - first:
+      213: -1928960304896897636
+    second: Agua_2_17
+  - first:
+      213: 6436189280906916465
+    second: Agua_2_18
+  - first:
+      213: 1671652021175276518
+    second: Agua_2_19
+  - first:
+      213: -1386991723784770112
+    second: Agua_2_20
+  - first:
+      213: -5737301967014363537
+    second: Agua_2_21
+  - first:
+      213: -4311686005296653240
+    second: Agua_2_22
+  - first:
+      213: -1101527212484850659
+    second: Agua_2_23
+  - first:
+      213: 2476675257630596405
+    second: Agua_2_24
+  - first:
+      213: -4463568244122343385
+    second: Agua_2_25
+  - first:
+      213: 3974879912168794564
+    second: Agua_2_26
+  - first:
+      213: 1730355142506162991
+    second: Agua_2_27
+  - first:
+      213: 6156875301629500346
+    second: Agua_2_28
+  - first:
+      213: 904671832826858504
+    second: Agua_2_29
+  - first:
+      213: 2132329115480871476
+    second: Agua_2_30
+  - first:
+      213: -4663826066475104987
+    second: Agua_2_31
+  - first:
+      213: -2959133286504105415
+    second: Agua_2_0
+  - first:
+      213: 1874905966487620806
+    second: Agua_2_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -40,7 +142,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -71,9 +173,96 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Agua_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529f081d3689e78b0800000000000000
+      internalID: -5152513369181193947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agua_2_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 32
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba4d2f36534cb230800000000000000
+      internalID: 3655871035224181433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Agua_2_2
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 32
+        width: 250
+        height: 250
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9d1d8fe7fe8c2f0800000000000000
+      internalID: -952247992569439834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -13,6 +13,7 @@ public class PlayerManager : MonoBehaviour
     SpriteRenderer sprite;
     public SpriteRenderer bracosprite;
     Animator anim;
+    Transform tr;
 
     Rigidbody2D rb;
     [SerializeField]
@@ -26,6 +27,7 @@ public class PlayerManager : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+        tr = GetComponent<Transform>();
     }
 
     void Update()
@@ -56,6 +58,9 @@ public class PlayerManager : MonoBehaviour
             Jump(jumpForce);
             anim.SetTrigger("jump");
         }
+
+        if (vida <= 0)
+            Die();
     }
 
     void TakeDamageLife(float value)
@@ -70,7 +75,8 @@ public class PlayerManager : MonoBehaviour
 
     void Die()
     {
-        Destroy(gameObject);
+        gameObject.transform.position = new Vector2(-100, 0);
+        vida = 100;
     }
 
     void Jump(float jumpF) 
@@ -87,10 +93,19 @@ public class PlayerManager : MonoBehaviour
     {
         if (col.gameObject.tag == "Spike")
         {
-            TakeDamageLife(20);
+            TakeDamageLife(50);
+            sprite.color = Color.red;
             UnityEngine.Debug.Log(vida);
             Jump(500);
             anim.SetTrigger("jump");
+        }
+
+    }
+    private void OnCollisionExit2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Spike")
+        {
+            sprite.color = Color.white;
         }
 
     }
