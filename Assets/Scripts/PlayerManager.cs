@@ -53,7 +53,7 @@ public class PlayerManager : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(checker.transform.position, radius, layer);
         if (isGrounded && Input.GetAxis("Vertical") > 0)
         {
-            Jump();
+            Jump(jumpForce);
             anim.SetTrigger("jump");
         }
     }
@@ -73,13 +73,26 @@ public class PlayerManager : MonoBehaviour
         Destroy(gameObject);
     }
 
-    void Jump() 
+    void Jump(float jumpF) 
     {
-        rb.AddForce(Vector2.up * jumpForce * Time.deltaTime, ForceMode2D.Impulse);
+        rb.AddForce(Vector2.up * jumpF * Time.deltaTime, ForceMode2D.Impulse);
     }
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(checker.transform.position, radius);
     }
+
+    private void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == "Spike")
+        {
+            TakeDamageLife(20);
+            UnityEngine.Debug.Log(vida);
+            Jump(500);
+            anim.SetTrigger("jump");
+        }
+
+    }
+
 }
