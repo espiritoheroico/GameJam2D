@@ -12,6 +12,7 @@ public class PlayerManager : MonoBehaviour
     public bool isGrounded;
     SpriteRenderer sprite;
     public SpriteRenderer bracosprite;
+    public soundManagerScript soundfx;
     Animator anim;
     Transform tr;
 
@@ -20,7 +21,6 @@ public class PlayerManager : MonoBehaviour
     float radius = 0.3f;
     [SerializeField] Transform checker;
     [SerializeField] LayerMask layer;
-    //
 
     void Start()
     {
@@ -63,6 +63,7 @@ public class PlayerManager : MonoBehaviour
 
     void TakeDamageLife(float value)
     {
+        soundfx.playDamage();
         vida -= value;
     }
     
@@ -73,12 +74,14 @@ public class PlayerManager : MonoBehaviour
 
     void Die()
     {
+        soundfx.playKilled();
         gameObject.transform.position = new Vector2(-100, 0);
         vida = 100;
     }
 
-    void Jump(float jumpF) 
+    void Jump(float jumpF)
     {
+        soundfx.playJump();
         rb.AddForce(Vector2.up * jumpF * Time.deltaTime, ForceMode2D.Impulse);
     }
     private void OnDrawGizmosSelected()

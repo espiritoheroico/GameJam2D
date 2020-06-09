@@ -9,6 +9,7 @@ public class enemyDeathManager : MonoBehaviour
     SpriteRenderer sprite;
     Transform tr;
     GameObject parent;
+    public soundManagerScript soundfx;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,7 @@ public class enemyDeathManager : MonoBehaviour
     void Die()
     {
         Destroy(parent);
+        soundfx.playKilled();
     }
     void TakeDamageLife(float value)
     {
@@ -36,7 +38,8 @@ public class enemyDeathManager : MonoBehaviour
         if (col.gameObject.tag == "Player")
         {
             TakeDamageLife(34);
-            
+            soundfx.playEnHit();
+
             sprite.color = Color.red;
             if (enemyLife <= 0)
                 Die();
