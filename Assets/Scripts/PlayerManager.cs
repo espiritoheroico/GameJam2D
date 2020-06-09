@@ -95,7 +95,6 @@ public class PlayerManager : MonoBehaviour
         {
             TakeDamageLife(50);
             sprite.color = Color.red;
-            UnityEngine.Debug.Log(vida);
             Jump(500);
             anim.SetTrigger("jump");
         }
