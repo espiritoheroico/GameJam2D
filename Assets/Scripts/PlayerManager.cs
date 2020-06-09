@@ -59,8 +59,6 @@ public class PlayerManager : MonoBehaviour
             anim.SetTrigger("jump");
         }
 
-        if (vida <= 0)
-            Die();
     }
 
     void TakeDamageLife(float value)
@@ -97,6 +95,8 @@ public class PlayerManager : MonoBehaviour
             sprite.color = Color.red;
             Jump(500);
             anim.SetTrigger("jump");
+            if (vida <= 0)
+                Die();
         }
 
     }
