@@ -1,15 +1,18 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    float vida = 100;
-    // 
+    public float vida = 100;
+    public float collectables = 0;
     public float moveSpeed = 5f;
     public float jumpForce = 300f;
     public bool isGrounded;
+     float timerJump = 0f;
+
     SpriteRenderer sprite;
     public SpriteRenderer bracosprite;
     public soundManagerScript soundfx;
@@ -55,10 +58,15 @@ public class PlayerManager : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(checker.transform.position, radius, layer);
         if (isGrounded && Input.GetAxis("Vertical") > 0)
         {
+            if (timerJump <= 0.0f)
+            {
+                soundfx.playJump();
+                timerJump = 0.5f;
+            }
             Jump(jumpForce);
             anim.SetTrigger("jump");
         }
-
+        timerJump -= Time.deltaTime;
     }
 
     void TakeDamageLife(float value)
@@ -81,7 +89,6 @@ public class PlayerManager : MonoBehaviour
 
     void Jump(float jumpF)
     {
-        soundfx.playJump();
         rb.AddForce(Vector2.up * jumpF * Time.deltaTime, ForceMode2D.Impulse);
     }
     private void OnDrawGizmosSelected()
@@ -111,5 +118,13 @@ public class PlayerManager : MonoBehaviour
         }
 
     }
-
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.gameObject.tag == "Collect")
+        {
+            collectables++;
+            UnityEngine.Debug.Log("Coletou já " + collectables);
+            Destroy(col.gameObject);
+        }
+    }
 }
