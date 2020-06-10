@@ -12,7 +12,8 @@ public class Hook : MonoBehaviour
     public PlayerManager p;
     private Vector3 temppos;
     public LayerMask grappelayer;
-    public GameObject braço; 
+    public GameObject braço;
+    bool checker;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,19 +23,20 @@ public class Hook : MonoBehaviour
 
         joint.enabled = false;
         line.positionCount = 0;
+        checker = false;
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        RaycastHit2D hit2d = Physics2D.Raycast(cam.transform.position, mousepos, Mathf.Infinity, grappelayer);
-        Debug.Log
+        checker = Physics2D.OverlapCircle( mousepos, 1, grappelayer);
 
         braço.transform.LookAt(mousepos, new Vector3(0,0,1));
 
         getMouse();
-        if (Input.GetMouseButtonDown(0) && hit2d)
+
+        if (Input.GetMouseButtonDown(0) && checker)
         {
             joint.enabled = true;
             line.enabled = true;

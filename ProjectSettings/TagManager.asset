@@ -8,6 +8,7 @@ TagManager:
   - checker
   - Spike
   - Collect
+  - hooker
   layers:
   - Default
   - TransparentFX
@@ -44,4 +45,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: scenary
+    uniqueID: 2852618327
+    locked: 0
+  - name: hooker
+    uniqueID: 463558191
     locked: 0
