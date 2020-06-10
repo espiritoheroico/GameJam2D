@@ -3,9 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using UnityEngine;
+using UnityEngine.UI;
+
 
 public class PlayerManager : MonoBehaviour
 {
+    public Text txtIten;
+    public Text txtVida;
     public float vida = 100;
     public int totalLifes = 3;
     public float dano = 30;
@@ -30,6 +34,7 @@ public class PlayerManager : MonoBehaviour
 
     void Start()
     {
+        txtVida.text = totalLifes.ToString();
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
@@ -92,6 +97,7 @@ public class PlayerManager : MonoBehaviour
         vida = 100;
         healthBar.SetHealth(vida);
         totalLifes--;
+        txtVida.text = totalLifes.ToString();
         if (totalLifes == 0)
             GameOver();
 
@@ -138,7 +144,7 @@ public class PlayerManager : MonoBehaviour
         {
             soundfx.playCollect();
             collectables++;
-            UnityEngine.Debug.Log("Coletou já " + collectables);
+            txtIten.text = collectables.ToString();
             Destroy(col.gameObject);
         }
     }
