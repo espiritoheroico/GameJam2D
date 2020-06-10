@@ -22,7 +22,7 @@ public class PlayerManager : MonoBehaviour
     Animator anim;
     Transform tr;
 
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
     [SerializeField]
     float radius = 0.3f;
     [SerializeField] Transform checker;
@@ -59,6 +59,7 @@ public class PlayerManager : MonoBehaviour
 
         //jump
         isGrounded = Physics2D.OverlapCircle(checker.transform.position, radius, layer);
+
         if (isGrounded && Input.GetAxis("Vertical") > 0)
         {
             if (timerJump <= 0.0f)
