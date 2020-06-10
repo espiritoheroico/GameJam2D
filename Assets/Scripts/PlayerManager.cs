@@ -7,6 +7,8 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     public float vida = 100;
+    public int totalLifes = 3;
+    public float dano = 30;
     public float collectables = 0;
     public float moveSpeed = 5f;
     public float jumpForce = 300f;
@@ -16,6 +18,7 @@ public class PlayerManager : MonoBehaviour
     SpriteRenderer sprite;
     public SpriteRenderer bracosprite;
     public soundManagerScript soundfx;
+    public healthBarControl healthBar;
     Animator anim;
     Transform tr;
 
@@ -73,11 +76,13 @@ public class PlayerManager : MonoBehaviour
     {
         soundfx.playDamage();
         vida -= value;
+        healthBar.SetHealth(vida);
     }
     
     void IncreaseLife(float value)
     {
         vida += value;
+        healthBar.SetHealth(vida);
     }
 
     void Die()
@@ -85,8 +90,17 @@ public class PlayerManager : MonoBehaviour
         soundfx.playKilled();
         gameObject.transform.position = new Vector2(-100, 0);
         vida = 100;
-    }
+        healthBar.SetHealth(vida);
+        totalLifes--;
+        if (totalLifes == 0)
+            GameOver();
 
+    }
+    void GameOver()
+    {
+
+        Application.LoadLevel(Application.loadedLevel);
+    }
     void Jump(float jumpF)
     {
         rb.AddForce(Vector2.up * jumpF * Time.deltaTime, ForceMode2D.Impulse);
@@ -101,7 +115,7 @@ public class PlayerManager : MonoBehaviour
     {
         if (col.gameObject.tag == "Spike")
         {
-            TakeDamageLife(50);
+            TakeDamageLife(dano);
             sprite.color = Color.red;
             Jump(500);
             anim.SetTrigger("jump");
@@ -122,6 +136,7 @@ public class PlayerManager : MonoBehaviour
     {
         if (col.gameObject.tag == "Collect")
         {
+            soundfx.playCollect();
             collectables++;
             UnityEngine.Debug.Log("Coletou já " + collectables);
             Destroy(col.gameObject);

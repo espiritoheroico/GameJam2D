@@ -11,6 +11,7 @@ public class soundManagerScript : MonoBehaviour
     public AudioSource jumpSound;
     public AudioSource killedSound;
     public AudioSource damageSound;
+    public AudioSource collectItens;
     //public AudioSource menuChangeSound;
     //public AudioSource menuEnterSound;
     //public AudioSource menuExitSound;
@@ -19,8 +20,13 @@ public class soundManagerScript : MonoBehaviour
     void Start()
     {
 
-        musicIntro.Play ();
+        musicIntro.Play();
         musicLoop.PlayDelayed(musicIntro.clip.length);
+    }
+
+    public void playCollect()
+    {
+        collectItens.Play();
     }
     public void playEnHit()
     {
