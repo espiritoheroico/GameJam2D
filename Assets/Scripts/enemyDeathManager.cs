@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class enemyDeathManager : MonoBehaviour
 {
+
     float enemyLife = 100;
     SpriteRenderer sprite;
     Transform tr;
@@ -18,11 +19,6 @@ public class enemyDeathManager : MonoBehaviour
         sprite = parent.GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     void Die()
     {

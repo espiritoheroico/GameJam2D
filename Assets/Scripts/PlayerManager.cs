@@ -99,7 +99,7 @@ public class PlayerManager : MonoBehaviour
         healthBar.SetHealth(vida);
         totalLifes--;
         txtVida.text = totalLifes.ToString();
-        if (totalLifes == 0)
+        if (totalLifes < 0)
             GameOver();
 
     }
@@ -120,7 +120,7 @@ public class PlayerManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
-        if (col.gameObject.tag == "Spike")
+        if ((col.collider.tag) == "Spike")
         {
             TakeDamageLife(dano);
             sprite.color = Color.red;
@@ -133,7 +133,7 @@ public class PlayerManager : MonoBehaviour
     }
     private void OnCollisionExit2D(Collision2D col)
     {
-        if (col.gameObject.tag == "Spike")
+        if ((col.collider.tag) == "Spike")
         {
             sprite.color = Color.white;
         }

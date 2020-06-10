@@ -11,6 +11,7 @@ public class Hook : MonoBehaviour
     private LineRenderer line;
     public PlayerManager p;
     private Vector3 temppos;
+    public soundManagerScript soundfx;
     public LayerMask grappelayer;
     public GameObject braço;
     bool checker;
@@ -38,6 +39,7 @@ public class Hook : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0) && checker)
         {
+            soundfx.playHook();
             joint.enabled = true;
             line.enabled = true;
             joint.connectedAnchor = mousepos;
