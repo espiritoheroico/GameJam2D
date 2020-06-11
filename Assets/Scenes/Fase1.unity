@@ -3935,6 +3935,11 @@ PrefabInstance:
       propertyPath: txtVida
       value: 
       objectReference: {fileID: 383770189}
+    - target: {fileID: 1639244721197004345, guid: 13ae2d8a4f6ea66429b74f78673f3013,
+        type: 3}
+      propertyPath: hook
+      value: 
+      objectReference: {fileID: 1549565386}
     - target: {fileID: 4824835279183799012, guid: 13ae2d8a4f6ea66429b74f78673f3013,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4009,6 +4014,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5956162119083713530, guid: 13ae2d8a4f6ea66429b74f78673f3013,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5956162119083713530, guid: 13ae2d8a4f6ea66429b74f78673f3013,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5956162119083713530, guid: 13ae2d8a4f6ea66429b74f78673f3013,
+        type: 3}
+      propertyPath: m_Parameters.colorGradient.key1.b
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6329522195016542952, guid: 13ae2d8a4f6ea66429b74f78673f3013,
         type: 3}
@@ -20345,6 +20365,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1588354900}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1549565386 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6910013627989619562, guid: 13ae2d8a4f6ea66429b74f78673f3013,
+    type: 3}
+  m_PrefabInstance: {fileID: 634051207}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8da851312799f1142834044d87caa8aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1585366420
 GameObject:
   m_ObjectHideFlags: 0
