@@ -1,0 +1,470 @@
+fileFormatVersion: 2
+guid: 8031612aac2173f48856f086628306c2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4162316565171066711
+    second: martileset_0
+  - first:
+      213: 7622940971697860839
+    second: martileset_1
+  - first:
+      213: 869027056398413349
+    second: martileset_2
+  - first:
+      213: -5103537578314255983
+    second: martileset_3
+  - first:
+      213: 5236764356538336151
+    second: martileset_4
+  - first:
+      213: -1653251512959789525
+    second: martileset_5
+  - first:
+      213: 3969632849748705004
+    second: martileset_6
+  - first:
+      213: -5132396381765342073
+    second: martileset_7
+  - first:
+      213: 5486401425044147719
+    second: martileset_8
+  - first:
+      213: -1414136901626309790
+    second: martileset_9
+  - first:
+      213: -6551250520044878589
+    second: martileset_10
+  - first:
+      213: -1345643579103328322
+    second: martileset_11
+  - first:
+      213: -1516271828323407426
+    second: martileset_12
+  - first:
+      213: -5744283552528257785
+    second: martileset_13
+  - first:
+      213: -4846664016426409692
+    second: martileset_14
+  - first:
+      213: -7716382207072721079
+    second: martileset_15
+  - first:
+      213: -5851050774876313818
+    second: martileset_16
+  - first:
+      213: -5501820773459370876
+    second: martileset_17
+  - first:
+      213: -6225004498597905190
+    second: martileset_18
+  - first:
+      213: -7789885829002606947
+    second: martileset_19
+  - first:
+      213: -6411843018361552248
+    second: martileset_20
+  - first:
+      213: -8528127240608948899
+    second: martileset_21
+  - first:
+      213: 420023213190672090
+    second: martileset_22
+  - first:
+      213: -7040886174278857412
+    second: martileset_23
+  - first:
+      213: 4964121962250347098
+    second: martileset_24
+  - first:
+      213: 1252214131960927675
+    second: martileset_25
+  - first:
+      213: 3665771471189829383
+    second: martileset_26
+  - first:
+      213: -1000380718379045399
+    second: martileset_27
+  - first:
+      213: -6093144949482890974
+    second: martileset_28
+  - first:
+      213: -4356184122895487238
+    second: martileset_29
+  - first:
+      213: 1569622757166550364
+    second: martileset_30
+  - first:
+      213: -4085761987907566336
+    second: martileset_31
+  - first:
+      213: -4618525768943409256
+    second: martileset_32
+  - first:
+      213: 2628299896597114777
+    second: martileset_33
+  - first:
+      213: 8433876532735171474
+    second: martileset_34
+  - first:
+      213: -9066325932847698191
+    second: martileset_35
+  - first:
+      213: -5721714108292744592
+    second: martileset_36
+  - first:
+      213: -523183722449912993
+    second: martileset_37
+  - first:
+      213: 3236908310249915901
+    second: martileset_38
+  - first:
+      213: 3612467289540372985
+    second: martileset_39
+  - first:
+      213: 3920582219733647224
+    second: martileset_40
+  - first:
+      213: -102728397465318906
+    second: martileset_41
+  - first:
+      213: 8275827085907967402
+    second: martileset_42
+  - first:
+      213: -436396175241022448
+    second: martileset_43
+  - first:
+      213: 4603813600780094329
+    second: martileset_44
+  - first:
+      213: 8998777853223249151
+    second: martileset_45
+  - first:
+      213: 6031130207092341729
+    second: martileset_46
+  - first:
+      213: -2879892577972384971
+    second: martileset_47
+  - first:
+      213: 2715223679219334441
+    second: martileset_48
+  - first:
+      213: -3228321294360296780
+    second: martileset_0
+  - first:
+      213: -8695790781753077040
+    second: martileset_1
+  - first:
+      213: 7495106574452377076
+    second: martileset_2
+  - first:
+      213: 9053436813356587821
+    second: martileset_3
+  - first:
+      213: -8640338365995708526
+    second: martileset_4
+  - first:
+      213: -7889341856606321849
+    second: martileset_5
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 161
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: martileset_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 322
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b243dc13e2b233d0800000000000000
+      internalID: -3228321294360296780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martileset_1
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 322
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d2dd743b58525780800000000000000
+      internalID: -8695790781753077040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martileset_2
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 322
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5cdebf7b7f30860800000000000000
+      internalID: 7495106574452377076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martileset_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2b509880d444ad70800000000000000
+      internalID: 9053436813356587821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martileset_4
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 161
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f85abd80a571880800000000000000
+      internalID: -8640338365995708526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martileset_5
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 161
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7430c55816d638290800000000000000
+      internalID: -7889341856606321849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martileset_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee3ef97b08f61730800000000000000
+      internalID: 3969632849748705004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martileset_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c6062fea016c8b0800000000000000
+      internalID: -5132396381765342073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: martileset_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 0
+        width: 161
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e04f2270d932c40800000000000000
+      internalID: 5486401425044147719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
