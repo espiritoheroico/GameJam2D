@@ -320,7 +320,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   UnitsToMoveY: 0
-  UnitsToMoveX: 8
+  UnitsToMoveX: 15
   EnemySpeed: {x: 3, y: 0}
   _isFacingRight: 1
   _moveRight: 0
