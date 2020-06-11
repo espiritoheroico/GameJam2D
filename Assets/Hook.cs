@@ -38,24 +38,28 @@ public class Hook : MonoBehaviour
         getMouse();
 
         if (Input.GetMouseButtonDown(0) && checker)
-        {
-            soundfx.playHook();
-            joint.enabled = true;
-            line.enabled = true;
-            joint.connectedAnchor = mousepos;
-            line.positionCount = 2;
-            temppos = mousepos;
-        }
+            EnableHook();
         else if (Input.GetMouseButtonDown(1))
-        {
-            joint.enabled = false;
-            line.enabled = false;
-            line.positionCount = 0;
-        }
+            DisableHook();
+        
         drawLine();
     }
+    public void EnableHook()
+    {
+        soundfx.playHook();
+        joint.enabled = true;
+        line.enabled = true;
+        joint.connectedAnchor = mousepos;
+        line.positionCount = 2;
+        temppos = mousepos;
 
-
+    }
+    public void DisableHook()
+    {
+        joint.enabled = false;
+        line.enabled = false;
+        line.positionCount = 0;
+    }
     private void drawLine() 
     {
         if (line.positionCount <= 0) return;

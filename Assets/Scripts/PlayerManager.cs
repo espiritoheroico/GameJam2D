@@ -8,6 +8,7 @@ using UnityEngine.UI;
 
 public class PlayerManager : MonoBehaviour
 {
+    public Hook hook;
     public Text txtIten;
     public Text txtVida;
     public float vida = 100;
@@ -94,6 +95,7 @@ public class PlayerManager : MonoBehaviour
     void Die()
     {
         soundfx.playKilled();
+        hook.DisableHook();
         gameObject.transform.position = new Vector2(-100, 0);
         vida = 100;
         healthBar.SetHealth(vida);
