@@ -9,12 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 33eac9fb1439b74468518ca5c6d6e511
   - enabled: 0
-    path: Assets/Scenes/TestSceneVitor.unity
-    guid: 462f0d4144c1ecb4c97ee2f0fdcbf7f2
-  - enabled: 1
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
     path: Assets/Scenes/Fase1.unity
     guid: 10920fa63ca5cbc4da7c9698322712c2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Fase2.unity
     guid: 3015b6ff9af04714fa0a5b00adfcc673
   - enabled: 0
