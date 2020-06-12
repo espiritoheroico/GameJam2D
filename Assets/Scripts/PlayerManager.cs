@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class PlayerManager : MonoBehaviour
@@ -26,6 +27,7 @@ public class PlayerManager : MonoBehaviour
     public healthBarControl healthBar;
     Animator anim;
     Transform tr;
+    public GameOver go;
 
     public Rigidbody2D rb;
     [SerializeField]
@@ -79,7 +81,7 @@ public class PlayerManager : MonoBehaviour
         timerJump -= Time.deltaTime;
     }
 
-    void TakeDamageLife(float value)
+    public void TakeDamageLife(float value)
     {
         soundfx.playDamage();
         vida -= value;
@@ -101,14 +103,12 @@ public class PlayerManager : MonoBehaviour
         healthBar.SetHealth(vida);
         totalLifes--;
         txtVida.text = totalLifes.ToString();
-        if (totalLifes < 0)
-            GameOver();
+        if (totalLifes < 0) GameOver();
 
     }
     void GameOver()
     {
-
-        Application.LoadLevel(Application.loadedLevel);
+        go.gameover();
     }
     void Jump(float jumpF)
     {
